@@ -1,0 +1,18 @@
+.CLI angular : mi-control projet angular
+-npm install -g @angular/cli
+test: np --help
+.Creer une espace de travail
+-ng new --create-application=false name_workspace
+-cd name_workspace
+.Creation d'application
+ng generate application 
+*angular.js=fichier de configuration jeren'i CLI
+.Mi-run application
+ng serve name_application -o
+main.ts: fichier principale (bootstrap=mise en place)
+Component =(balise ray , html ray, css ray)
+styles.css ny manao style global ao @ ilay application
+.Creation component(moi je me suis placé dans workspace pour faire la commande)  
+ng g c nom_composant
+.Mi creer dist an'ilay angular( andeha ho atao any @ ilay node)
+ng build --configuration production
